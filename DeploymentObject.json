@@ -15,10 +15,7 @@
         "componentOutput": {
             "type": "string",
             "value": "[variables('uriEncoded')]"
-        },
-        "toStringOutput": {
-            "type": "string",
-            "value": "[uriComponentToString(variables('uriEncoded'))]"
         }
+       
     }
 }
